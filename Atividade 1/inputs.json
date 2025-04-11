@@ -1,0 +1,11 @@
+[
+    {"email": "exemplo@dominio.com", "valid": true},
+    {"email": "test@exemplo.com", "valid": true},
+    {"email": "invalido@dominio", "valid": false},
+    {"email": "exemplo@.com", "valid": false},
+    {"email": "exemplo@dominio..com", "valid": false},
+    {"email": "exemplo@dominio.com@", "valid": false},
+    {"email": ".exemplo@dominio.com", "valid": false},
+    {"email": "exemplo@dominio.com.", "valid": false},
+    {"email": "exemplo@domínio.com", "valid": false}  // Não são todos os serviços de e-mail que aceitam acento no e-mail.
+]
